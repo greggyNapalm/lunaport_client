@@ -1,0 +1,15 @@
+Source: python-lunaport-client
+Section: python
+Priority: optional
+Maintainer: Gregory Komissarov <gregory.komissarov@gmail.com>
+Build-Depends: debhelper (>=7),
+         python (>= 2.7.1-0ubuntu2),
+         python (<< 2.8),
+Standards-Version: 3.8.3
+
+Package: python-lunaport-client
+Architecture: all 
+Depends: python (>= 2.7.1-0ubuntu2),
+         python (<< 2.8),
+         python-requests (>= 2.0.0-1)
+Description: Lunaport REST API python client @see https://github.org/gkomissarov/lunaport_client
